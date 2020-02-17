@@ -154,7 +154,7 @@ namespace v2rayN.Handler
                     {
                         var webProxy = new WebProxy(Global.Loopback, httpPort + index);
                         int responseTime = -1;
-                        var status = GetRealPingTime(Global.SpeedPingTestUrl, webProxy, out responseTime);
+                        var status = GetRealPingTime(_config.speedPingTestUrl, webProxy, out responseTime);
                         if (!Utils.IsNullOrEmpty(status))
                         {
                             _updateFunc(index, string.Format("{0}", status));
@@ -195,7 +195,7 @@ namespace v2rayN.Handler
 
             Thread.Sleep(5000);
 
-            string url = Global.SpeedTestUrl;
+            string url = _config.speedTestUrl;
             testCounter = 0;
             if (downloadHandle2 == null)
             {
