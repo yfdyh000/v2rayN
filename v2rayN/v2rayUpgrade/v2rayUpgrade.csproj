@@ -95,6 +95,8 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Grpc.Tools.2.27.0\build\Grpc.Tools.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Grpc.Tools.2.27.0\build\Grpc.Tools.props'))" />
     <Error Condition="!Exists('..\packages\Grpc.Tools.2.27.0\build\Grpc.Tools.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Grpc.Tools.2.27.0\build\Grpc.Tools.targets'))" />
+    <Error Condition="!Exists('..\packages\Google.Protobuf.Tools.3.11.4\build\Google.Protobuf.Tools.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Google.Protobuf.Tools.3.11.4\build\Google.Protobuf.Tools.targets'))" />
   </Target>
   <Import Project="..\packages\Grpc.Tools.2.27.0\build\Grpc.Tools.targets" Condition="Exists('..\packages\Grpc.Tools.2.27.0\build\Grpc.Tools.targets')" />
+  <Import Project="..\packages\Google.Protobuf.Tools.3.11.4\build\Google.Protobuf.Tools.targets" Condition="Exists('..\packages\Google.Protobuf.Tools.3.11.4\build\Google.Protobuf.Tools.targets')" />
 </Project>
