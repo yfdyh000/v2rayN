@@ -11,6 +11,8 @@ using v2rayN.Tool;
 using System.Diagnostics;
 using System.Drawing;
 using System.Net;
+using System.Threading;
+using System.ComponentModel;
 
 namespace v2rayN.Forms
 {
@@ -44,9 +46,25 @@ namespace v2rayN.Forms
             };
         }
 
+        private void ChangeLanguage(string lang)
+        {
+            foreach (Control c in this.Controls)
+            {
+                ComponentResourceManager resources = new ComponentResourceManager(typeof(MainForm));
+                resources.ApplyResources(c, c.Name);
+            }
+        }
         private void MainForm_Load(object sender, EventArgs e)
         {
             ConfigHandler.LoadConfig(ref config);
+
+            //设置语言环境
+            string lang = "zh-Hans";
+            
+            if (config.uiLanguage != null) lang = config.uiLanguage;
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(lang);
+            ChangeLanguage(lang);
+
             v2rayHandler = new V2rayHandler();
             v2rayHandler.ProcessEvent += v2rayHandler_ProcessEvent;
 
@@ -1506,7 +1524,7 @@ namespace v2rayN.Forms
         }
         private void SetCurrentLanguage(string value)
         {
-            Utils.RegWriteValue(Global.MyRegPath, Global.MyRegKeyLanguage, value);
+            config.uiLanguage = value;
             Application.Restart();
         }
 

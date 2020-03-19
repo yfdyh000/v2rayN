@@ -324,7 +324,7 @@ namespace v2rayN.Handler
         }
 
         /// <summary>
-        /// 保参数
+        /// 保存参数
         /// </summary>
         /// <param name="config"></param>
         /// <returns></returns>
@@ -801,7 +801,7 @@ namespace v2rayN.Handler
         }
 
         /// <summary>
-        /// add sub
+        /// 新增订阅
         /// </summary>
         /// <param name="config"></param>
         /// <param name="url"></param>
@@ -829,7 +829,7 @@ namespace v2rayN.Handler
         }
 
         /// <summary>
-        /// save sub
+        /// 保存订阅
         /// </summary>
         /// <param name="config"></param>
         /// <returns></returns>

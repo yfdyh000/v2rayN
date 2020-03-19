@@ -143,15 +143,6 @@ namespace v2rayN
         public const string userEMail = "t@t.tt";
 
         /// <summary>
-        /// MyRegPath
-        /// </summary>
-        public const string MyRegPath = "Software\\v2rayNGUI";
-
-        /// <summary>
-        /// Language
-        /// </summary>
-        public const string MyRegKeyLanguage = "CurrentLanguage";
-        /// <summary>
         /// Icon
         /// </summary>
         public const string CustomIconName = "v2rayN.ico";
