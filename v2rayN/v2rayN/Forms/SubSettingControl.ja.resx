@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="btnRemove.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="chkEnabled.Text" xml:space="preserve">
+    <value>起動</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>アドレス (url)</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>フォーロー配置</value>
+  </data>
+</root>

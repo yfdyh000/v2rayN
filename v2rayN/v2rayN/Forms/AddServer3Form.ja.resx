@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Text" xml:space="preserve">
+    <value>サーバーを編集＆添加する</value>
+  </data>
+  <data name="MenuItem1.Text" xml:space="preserve">
+    <value>配置ファイルをインポートする</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>キャンセル(&amp;C)</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>確認する(&amp;O)</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>サーバー</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>サーバーアドレス</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>サーバーポート</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>パースワード</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>暗号化</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>リマーク(remarks)</value>
+  </data>
+  <data name="menuItemImportClipboard.Text" xml:space="preserve">
+    <value>クリップボードからURLをインポートする</value>
+  </data>
+</root>

@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="xsd:required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="xsd:string" />
+              <xsd:attribute name="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="type" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BatchExportSubscriptionSuccessfully" xml:space="preserve">
+    <value>フォーロー内容からクリップボードに括エクスポートシェアのが成功した</value>
+  </data>
+  <data name="BatchExportURLSuccessfully" xml:space="preserve">
+    <value>URLからクリップボードに括エクスポートシェアのが成功した</value>
+  </data>
+  <data name="CheckServerSettings" xml:space="preserve">
+    <value>まずサーバー設定をチェックしてください</value>
+  </data>
+  <data name="ConfigurationFormatIncorrect" xml:space="preserve">
+    <value>配置したフォーマットは不正確です</value>
+  </data>
+  <data name="CustomServerTips" xml:space="preserve">
+    <value>ご注意してください、カスタム配置は完全にあなたの配置に頼ります。全ての設定機能が使われるわけではない。カスタム配置inboundの中にsocks portが設定の中にのportと同じの時だけに，システムエージェントが使われる</value>
+  </data>
+  <data name="DownloadYesNo" xml:space="preserve">
+    <value>ダンロードする？ {0}</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>ダウンロード開始...</value>
+  </data>
+  <data name="FailedImportedCustomServer" xml:space="preserve">
+    <value>カスタム配置サーバーをインポートするのが失敗しました</value>
+  </data>
+  <data name="FailedReadConfiguration" xml:space="preserve">
+    <value>配置ファイルを読み込むのが失敗しました</value>
+  </data>
+  <data name="FillKcpParameters" xml:space="preserve">
+    <value>正確にKCPデータを記入してください</value>
+  </data>
+  <data name="FillPassword" xml:space="preserve">
+    <value>パスワードを記入してください</value>
+  </data>
+  <data name="FillServerAddress" xml:space="preserve">
+    <value>サーバーアドレスを記入してください</value>
+  </data>
+  <data name="FillUUID" xml:space="preserve">
+    <value>ユーザーIDを記入してください</value>
+  </data>
+  <data name="IncorrectClientConfiguration" xml:space="preserve">
+    <value>正確のクライアント配置ファイルではない、チェックしてください</value>
+  </data>
+  <data name="IncorrectServerConfiguration" xml:space="preserve">
+    <value>正確のクライアント配置ファイルではない、チェックしてください</value>
+  </data>
+  <data name="Incorrectconfiguration" xml:space="preserve">
+    <value>正確の配置ではない、チェックしてください</value>
+  </data>
+  <data name="InitialConfiguration" xml:space="preserve">
+    <value>配置を初期化する</value>
+  </data>
+  <data name="IsLatestCore" xml:space="preserve">
+    <value>{0} もう最新バージョンでした</value>
+  </data>
+  <data name="IsLatestN" xml:space="preserve">
+    <value>{0} もう最新バージョンでした</value>
+  </data>
+  <data name="LvAddress" xml:space="preserve">
+    <value>アドレス</value>
+  </data>
+  <data name="LvAlias" xml:space="preserve">
+    <value>リマーク</value>
+  </data>
+  <data name="LvEncryptionMethod" xml:space="preserve">
+    <value>暗号化</value>
+  </data>
+  <data name="LvPort" xml:space="preserve">
+    <value>ポート</value>
+  </data>
+  <data name="LvServiceType" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="LvSubscription" xml:space="preserve">
+    <value>フォーロー</value>
+  </data>
+  <data name="LvTestResults" xml:space="preserve">
+    <value>テスト結果</value>
+  </data>
+  <data name="LvTodayDownloadDataAmount" xml:space="preserve">
+    <value>今日ダウンロード</value>
+  </data>
+  <data name="LvTodayUploadDataAmount" xml:space="preserve">
+    <value>今日アップロード</value>
+  </data>
+  <data name="LvTotalDownloadDataAmount" xml:space="preserve">
+    <value>総ダウンロード</value>
+  </data>
+  <data name="LvTotalUploadDataAmount" xml:space="preserve">
+    <value>総アップロード</value>
+  </data>
+  <data name="LvTransportProtocol" xml:space="preserve">
+    <value>トランスポート協議</value>
+  </data>
+  <data name="MediumFresh" xml:space="preserve">
+    <value>ミディアムリフレッシュスピード</value>
+  </data>
+  <data name="MsgDownloadV2rayCoreSuccessfully" xml:space="preserve">
+    <value>成功にV2rayをダンロードした</value>
+  </data>
+  <data name="MsgFailedImportSubscription" xml:space="preserve">
+    <value>フォロー内容インポートするのが失敗しました</value>
+  </data>
+  <data name="MsgGetSubscriptionSuccessfully" xml:space="preserve">
+    <value>フォロー内容を成功に取得した</value>
+  </data>
+  <data name="MsgNoValidSubscription" xml:space="preserve">
+    <value>有効なフォーローを設定されない</value>
+  </data>
+  <data name="MsgPACUpdateFailed" xml:space="preserve">
+    <value>PAC更新失敗</value>
+  </data>
+  <data name="MsgPACUpdateSuccessfully" xml:space="preserve">
+    <value>PAC更新成功</value>
+  </data>
+  <data name="MsgParsingSuccessfully" xml:space="preserve">
+    <value>{0}を解析成功した</value>
+  </data>
+  <data name="MsgSimplifyPAC" xml:space="preserve">
+    <value>PACを簡略化する成功</value>
+  </data>
+  <data name="MsgStartGettingSubscriptions" xml:space="preserve">
+    <value>フォーロー内容を取得する開始</value>
+  </data>
+  <data name="MsgStartUpdating" xml:space="preserve">
+    <value>更新開始 {0}...</value>
+  </data>
+  <data name="MsgStartUpdatingPAC" xml:space="preserve">
+    <value>更新開始 PAC...</value>
+  </data>
+  <data name="MsgSubscriptionDecodingFailed" xml:space="preserve">
+    <value>フォーロー内容をデコードのが失敗した(BASE64コードではない)</value>
+  </data>
+  <data name="MsgUnpacking" xml:space="preserve">
+    <value>解凍している......</value>
+  </data>
+  <data name="MsgUpdateSubscriptionEnd" xml:space="preserve">
+    <value>フォーロー更新終了</value>
+  </data>
+  <data name="MsgUpdateSubscriptionStart" xml:space="preserve">
+    <value>フォーロー更新開始</value>
+  </data>
+  <data name="MsgUpdateV2rayCoreSuccessfully" xml:space="preserve">
+    <value>V2rayCore更新が成功しました</value>
+  </data>
+  <data name="MsgUpdateV2rayCoreSuccessfullyMore" xml:space="preserve">
+    <value>V2rayCore更新が成功しました！サービスをリロードしている...</value>
+  </data>
+  <data name="NeedHttpGlobalProxy" xml:space="preserve">
+    <value>この機能はHttpグローバルエージェントを頼る,設定を正確に配置してください</value>
+  </data>
+  <data name="NonVmessService" xml:space="preserve">
+    <value>vmessサービスではない、この機能が無効</value>
+  </data>
+  <data name="NonvmessOrssProtocol" xml:space="preserve">
+    <value>vmess＆ss協議ではない</value>
+  </data>
+  <data name="NotFoundCore" xml:space="preserve">
+    <value> v2ray-coreが探されない、ダウンロードアドレス: {0}</value>
+  </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>操作が失敗しました、もう一度チェックして試してください</value>
+  </data>
+  <data name="PleaseFillRemarks" xml:space="preserve">
+    <value>付注を記入してください</value>
+  </data>
+  <data name="PleaseSelectEncryption" xml:space="preserve">
+    <value>暗号化方式を選択してください</value>
+  </data>
+  <data name="PleaseSelectProtocol" xml:space="preserve">
+    <value>協議を選択してください</value>
+  </data>
+  <data name="PleaseSelectServer" xml:space="preserve">
+    <value>まずサーバーを選択してください</value>
+  </data>
+  <data name="QuickFresh" xml:space="preserve">
+    <value>ファストリフレッシュスピード</value>
+  </data>
+  <data name="RemoveServer" xml:space="preserve">
+    <value>サーバーを削除するか？</value>
+  </data>
+  <data name="SaveClientConfigurationIn" xml:space="preserve">
+    <value>クライアントファイルが:{0}にセーブしました</value>
+  </data>
+  <data name="SaveServerConfigurationIn" xml:space="preserve">
+    <value>サーバーファイルが:{0}にセーブしました</value>
+  </data>
+  <data name="SlowFresh" xml:space="preserve">
+    <value>スローリフレッシュスピード</value>
+  </data>
+  <data name="StartPacFailed" xml:space="preserve">
+    <value>PACサービス起動が失败しました、アドミニストレータで起動してください</value>
+  </data>
+  <data name="StartService" xml:space="preserve">
+    <value>サービス起動({0})...</value>
+  </data>
+  <data name="SuccessfulConfiguration" xml:space="preserve">
+    <value>配置成功
+{0}</value>
+  </data>
+  <data name="SuccessfullyImportedCustomServer" xml:space="preserve">
+    <value>成功にカスタム配置したサーバーをインポートしました</value>
+  </data>
+  <data name="SuccessfullyImportedServerViaClipboard" xml:space="preserve">
+    <value>成功にクリップボードから {0} サーバーをインポートしました</value>
+  </data>
+  <data name="SuccessfullyImportedServerViaScan" xml:space="preserve">
+    <value>URLインポートスキャンが成功した</value>
+  </data>
+  <data name="downloadSpeed" xml:space="preserve">
+    <value>ダンロード</value>
+  </data>
+</root>

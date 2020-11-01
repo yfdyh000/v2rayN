@@ -233,9 +233,24 @@
     <Compile Include="Tool\UI.cs" />
     <Compile Include="Tool\Utils.cs" />
     <Compile Include="Handler\V2rayConfigHandler.cs" />
+    <EmbeddedResource Include="Forms\AddServer2Form.ja.resx">
+      <DependentUpon>AddServer2Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AddServer2Form.zh-Hans.resx">
       <DependentUpon>AddServer2Form.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddServer3Form.ja.resx">
+      <DependentUpon>AddServer3Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddServer4Form.ja.resx">
+      <DependentUpon>AddServer4Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddServer5Form.ja.resx">
+      <DependentUpon>AddServer5Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddServer6Form.ja.resx">
+      <DependentUpon>AddServer6Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AddServer6Form.resx">
       <DependentUpon>AddServer6Form.cs</DependentUpon>
@@ -265,12 +280,18 @@
       <DependentUpon>AddServer5Form.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddServerForm.ja.resx">
+      <DependentUpon>AddServerForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AddServerForm.zh-Hans.resx">
       <DependentUpon>AddServerForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\BaseServerForm.resx">
       <DependentUpon>BaseServerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.ja.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -280,12 +301,21 @@
       <DependentUpon>MainForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OptionSettingForm.ja.resx">
+      <DependentUpon>OptionSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\OptionSettingForm.zh-Hans.resx">
       <DependentUpon>OptionSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QRCodeControl.ja.resx">
+      <DependentUpon>QRCodeControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QRCodeControl.zh-Hans.resx">
       <DependentUpon>QRCodeControl.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubSettingControl.ja.resx">
+      <DependentUpon>SubSettingControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SubSettingControl.resx">
       <DependentUpon>SubSettingControl.cs</DependentUpon>
@@ -293,6 +323,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SubSettingControl.zh-Hans.resx">
       <DependentUpon>SubSettingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubSettingForm.ja.resx">
+      <DependentUpon>SubSettingForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SubSettingForm.resx">
       <DependentUpon>SubSettingForm.cs</DependentUpon>
@@ -341,6 +374,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="Resx\ResUI.ja.resx" />
     <EmbeddedResource Include="Sample\custom_routing_block" />
     <EmbeddedResource Include="Sample\custom_routing_direct" />
     <EmbeddedResource Include="Sample\custom_routing_proxy" />

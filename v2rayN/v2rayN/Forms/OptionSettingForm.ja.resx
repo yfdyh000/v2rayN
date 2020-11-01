@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Text" xml:space="preserve">
+    <value>データ設定</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>キャンセル(&amp;C)</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>確認する(&amp;O)</value>
+  </data>
+  <data name="chkAllowLANConn.Text" xml:space="preserve">
+    <value>ローカルネットワークからのコネクトを許可する</value>
+  </data>
+  <data name="chkAutoRun.Text" xml:space="preserve">
+    <value>オンにするアウトラン（成功しないかも）</value>
+  </data>
+  <data name="chklogEnabled.Text" xml:space="preserve">
+    <value>ローカルログを記録する(デフォルトオフ)</value>
+  </data>
+  <data name="chkudpEnabled.Text" xml:space="preserve">
+    <value>UDPを起動する</value>
+  </data>
+  <data name="chkudpEnabled2.Text" xml:space="preserve">
+    <value>UDPを起動する</value>
+  </data>
+  <data name="cmblistenerType.Items" xml:space="preserve">
+    <value>Httpエージェントを閉じる</value>
+  </data>
+  <data name="cmblistenerType.Items1" xml:space="preserve">
+    <value>Httpエージェントを起動して、自動にシステムエージェントを配置する(PACムード)</value>
+  </data>
+  <data name="cmblistenerType.Items2" xml:space="preserve">
+    <value>PACを起動して、自動にシステムエージェンシーを配置する(PACムード)</value>
+  </data>
+  <data name="cmblistenerType.Items5" xml:space="preserve">
+    <value>Httpエージェントを起動するだけで、システムエージェントを変わらない</value>
+  </data>
+  <data name="cmblistenerType.Items6" xml:space="preserve">
+    <value>PACを起動するだけで、システムエージェントを変わらない</value>
+  </data>
+  <data name="cmbroutingMode.Items" xml:space="preserve">
+    <value>グローバル</value>
+  </data>
+  <data name="labRoutingTips.Text" xml:space="preserve">
+    <value>*設定したルール、読点で(,)仕切る;Domainをサポートする(純粋な文字列/正則/サブドメイン名)とIP</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>協議</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>カスタムGFWListアドレス(カスタムいらなっかたら空白を記入してください)</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>カスタムDNS(多選できる,読点(,)で仕切る)</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Httpエージェント</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>協議</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>ログレベル</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>  Core:KCPを設置する  </value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>  v2rayNを設置する  </value>
+  </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>  ユーザーPAC配置  </value>
+  </data>
+</root>

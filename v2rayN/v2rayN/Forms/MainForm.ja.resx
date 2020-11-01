@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>サーバーリスト</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>インフォメーション</value>
+  </data>
+  <data name="menuAddCustomServer.Text" xml:space="preserve">
+    <value>カスタムサーバーを添加する</value>
+  </data>
+  <data name="menuAddServers.Text" xml:space="preserve">
+    <value>クリップボードから括URLをインポートする</value>
+  </data>
+  <data name="menuAddServers2.Text" xml:space="preserve">
+    <value>クリップボードからURLを括インポートする</value>
+  </data>
+  <data name="menuAddShadowsocksServer.Text" xml:space="preserve">
+    <value>[Shadowsocks]サーバーを添加</value>
+  </data>
+  <data name="menuAddSocksServer.Text" xml:space="preserve">
+    <value>添加[Socks]サーバー</value>
+  </data>
+  <data name="menuAddTrojanServer.Text" xml:space="preserve">
+    <value>[Trojan]サーバーを添加</value>
+  </data>
+  <data name="menuAddVlessServer.Text" xml:space="preserve">
+    <value>[VLESS]サーバーを添加する</value>
+  </data>
+  <data name="menuAddVmessServer.Text" xml:space="preserve">
+    <value>[VMess]サーバーを添加する</value>
+  </data>
+  <data name="menuCopyPACUrl.Text" xml:space="preserve">
+    <value>ローカルPACウェブサイトアドレスをコピーする</value>
+  </data>
+  <data name="menuCopyServer.Text" xml:space="preserve">
+    <value>選択したサーバーをクロンする</value>
+  </data>
+  <data name="menuExit.Text" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="menuExport2ClientConfig.Text" xml:space="preserve">
+    <value>選択したサーバーをエクスポートしてクライアント配置にする</value>
+  </data>
+  <data name="menuExport2ServerConfig.Text" xml:space="preserve">
+    <value>選択したサーバーをエクスポートしてサービス端配置にする</value>
+  </data>
+  <data name="menuExport2ShareUrl.Text" xml:space="preserve">
+    <value>URLからクリップボードに括エクスポートシェアする(多選) (Ctrl+C)</value>
+  </data>
+  <data name="menuExport2SubContent.Text" xml:space="preserve">
+    <value>フォロー内容からクリップボードに括エクスポートする（多選）</value>
+  </data>
+  <data name="menuGlobal.Text" xml:space="preserve">
+    <value>Httpエージェントを起動して、自動にシステムエージェントを配置する(グローバルムード)</value>
+  </data>
+  <data name="menuGlobalPAC.Text" xml:space="preserve">
+    <value>PACを起動して、自動にシステムエージェントを配置する(PACムード)</value>
+  </data>
+  <data name="menuKeepNothing.Text" xml:space="preserve">
+    <value>Httpエージェントを起動するだけで、システムエージェントを変わらない</value>
+  </data>
+  <data name="menuKeepPACNothing.Text" xml:space="preserve">
+    <value>PACを起動するだけで、システムエージェントを変わらない</value>
+  </data>
+  <data name="menuMoveBottom.Text" xml:space="preserve">
+    <value>ボトムまで下に移動する (B)</value>
+  </data>
+  <data name="menuMoveDown.Text" xml:space="preserve">
+    <value>下に移動する (D)</value>
+  </data>
+  <data name="menuMoveTop.Text" xml:space="preserve">
+    <value>トップまで上に移動する (T)</value>
+  </data>
+  <data name="menuMoveUp.Text" xml:space="preserve">
+    <value>上に移動する (U)</value>
+  </data>
+  <data name="menuNotEnabledHttp.Text" xml:space="preserve">
+    <value>Httpエージェントを閉じる</value>
+  </data>
+  <data name="menuRemoveDuplicateServer.Text" xml:space="preserve">
+    <value>重复したサーバーを削除する</value>
+  </data>
+  <data name="menuRemoveServer.Text" xml:space="preserve">
+    <value>選択したサーバーを削除する(多選) (Delete)</value>
+  </data>
+  <data name="menuSelectAll.Text" xml:space="preserve">
+    <value>全てを選択する</value>
+  </data>
+  <data name="menuServers.Text" xml:space="preserve">
+    <value>サーバー</value>
+  </data>
+  <data name="menuSpeedServer.Text" xml:space="preserve">
+    <value>サーバースピードをテスト(多選) (Ctrl+T)</value>
+  </data>
+  <data name="menuSysAgentMode.Text" xml:space="preserve">
+    <value>Httpエージェント</value>
+  </data>
+  <data name="menuUpdateSubscriptions.Text" xml:space="preserve">
+    <value>フォーロー更新</value>
+  </data>
+  <data name="tsbCheckUpdate.Text" xml:space="preserve">
+    <value>  更新をチェックしている  </value>
+  </data>
+  <data name="tsbCheckUpdateCore.Text" xml:space="preserve">
+    <value>v2rayCore</value>
+  </data>
+  <data name="tsbCheckUpdateN.Text" xml:space="preserve">
+    <value>v2rayN</value>
+  </data>
+  <data name="tsbCheckUpdatePACList.Text" xml:space="preserve">
+    <value>PAC</value>
+  </data>
+  <data name="tsbHelp.Text" xml:space="preserve">
+    <value>   ヘルプ   </value>
+  </data>
+  <data name="tsbOptionSetting.Text" xml:space="preserve">
+    <value>  データ設定  </value>
+  </data>
+  <data name="tsbQRCodeSwitch.Text" xml:space="preserve">
+    <value>  シェア  </value>
+  </data>
+  <data name="tsbReload.Text" xml:space="preserve">
+    <value>  サービスをリロードする  </value>
+  </data>
+  <data name="tsbServer.Text" xml:space="preserve">
+    <value>  サーバー  </value>
+  </data>
+  <data name="tsbSub.Text" xml:space="preserve">
+    <value>  フォーロー  </value>
+  </data>
+  <data name="tsbSubSetting.Text" xml:space="preserve">
+    <value>フォーロー配置</value>
+  </data>
+  <data name="tsbSubUpdate.Text" xml:space="preserve">
+    <value>フォーロー更新</value>
+  </data>
+  <data name="tsbTestMe.Text" xml:space="preserve">
+    <value>現在サービス状態をテストする</value>
+  </data>
+</root>

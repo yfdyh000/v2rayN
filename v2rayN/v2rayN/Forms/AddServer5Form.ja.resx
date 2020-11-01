@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="MenuItem1.Text" xml:space="preserve">
+    <value>配置ファイルをインポートする</value>
+  </data>
+  <data name="MenuItemImportClient.Text" xml:space="preserve">
+    <value>クライアント配置をインポートする</value>
+  </data>
+  <data name="MenuItemImportClipboard.Text" xml:space="preserve">
+    <value>クリップボードからURLをインポートする</value>
+  </data>
+  <data name="MenuItemImportServer.Text" xml:space="preserve">
+    <value>サーバー配置をインポートする</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>キャンセル(&amp;C)</value>
+  </data>
+  <data name="btnGUID.Text" xml:space="preserve">
+    <value>生成する(&amp;G)</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>確認する(&amp;O)</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>サーバー</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>基盤トランスポート方式</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>アドレス</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>カバーホスト(host)</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>カバータイプ(type)</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>*tcp＆kcp＆QUICカバータイプ、デフォルトはnone</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>1)http host中に読点(,)で仕切る</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>基盤トランスポート安全</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>パス(path)</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>ポート(port)</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>3)h2 host読点で(,)仕切る</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>4)QUIC 暗号化方式</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>ユーザーID(id)</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>フロー</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>暗号化(encryption)</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>リマーク(remarks)</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>ネットワーク</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>*noneではない(none)</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>*デフォルトtcp、違ったらコネクトできない</value>
+  </data>
+</root>
