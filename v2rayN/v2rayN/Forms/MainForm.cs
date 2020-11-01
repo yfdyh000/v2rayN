@@ -1561,6 +1561,11 @@ namespace v2rayN.Forms
         {
             SetCurrentLanguage("zh-Hans");
         }
+        private void tsbLanguageJa_Click(object sender, EventArgs e)
+        {
+            SetCurrentLanguage("ja");
+        }
+
         private void SetCurrentLanguage(string value)
         {
             Utils.RegWriteValue(Global.MyRegPath, Global.MyRegKeyLanguage, value);
@@ -1570,8 +1575,7 @@ namespace v2rayN.Forms
 
 
 
-        #endregion
 
-      
+        #endregion
     }
 }
